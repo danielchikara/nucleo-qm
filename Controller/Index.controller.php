@@ -15,19 +15,17 @@ class Indexcontroller {
     
         
     public function Index() {
-       try {
-        require_once 'View/Navbar.html';
+       	require_once 'View/Navbar.html';
+       	require_once 'View/header.html';
         require_once 'View/index.html';
-    } catch (Exception $e) {
-    echo "error en llamada de vistas";
-
+    
     }
         
             
          
+      
+        
         
 
-        
-        
     }
-}
+
